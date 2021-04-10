@@ -4,8 +4,11 @@ Til þess að læra að gera eitthvað, prófaðu að leita á google af því s
 "how to change link color." */
 
 body {
-  background-color: #FF0000;
-  color: #FFFFAA;
+  /*background-color: #FF0000;*/
+  background-image: url("https://source.unsplash.com/random/");
+  background-repeat: no-repeat;
+  background-size: COVER;
+  background-color: rgba(152, 66, 211, 0.63);
 }
 
 h1 {
@@ -24,13 +27,43 @@ h2 {
 
 a {
   color: #AAAAFF;
+  background-color: #555555;
+
 }
 
 a:hover {
   color: #000000;
   font-size: 20px;
+  background-color: #333333;
 }
 
 ul {
-  background-color: #994444;
+
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+li:hover {
+
+
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+#efra {
+  display: block;
+  vertical-align: top;
+}
+#nedra {
+  display: block;
+  vertical-align: bottom;
+}
+#RickBox {
+  float: right;
+  width: 85%;
 }
