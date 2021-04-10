@@ -5,7 +5,8 @@ Til þess að læra að gera eitthvað, prófaðu að leita á google af því s
 
 body {
   /*background-color: #FF0000;*/
-  background-image: url("https://source.unsplash.com/random/");
+
+  
   background-repeat: no-repeat;
   background-size: COVER;
   background-color: rgba(152, 66, 211, 0.63);

@@ -7,9 +7,13 @@
       Ef þú hefur næstu línu í öllum síðunum hér þá munu þær allar hafa sama útlitið.
       Þetta auðveldar þér að gera nýjar síður á vefsíðunni þinni. -->
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>-->
   </head>
   <body>
+    <script>
+      var backgroundUrl = "https://picsum.photos/id/" + Math.floor(Math.random() * 1084) + "/1920/1080";
+      document.body.style.backgroundImage = "url('"+backgroundUrl+"')";
+    </script>
     <div id="content">
 
       <h1>Skapandi forritun</h1>
